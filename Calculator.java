@@ -47,8 +47,9 @@ class calculator {
     public static void addition() {
         Scanner scan = new Scanner(System.in);
         float a, b;
-        System.out.print("Enter the numbers : ");
+        System.out.print("Enter the first number: ");
         a = scan.nextFloat();
+        System.out.print("Enter the second number: ");
         b = scan.nextFloat();
         float c = a + b;
         System.out.println(a + "+" + b + "=" + c);
@@ -57,8 +58,9 @@ class calculator {
     public static void sub() {
         float a, b;
         Scanner scan = new Scanner(System.in);
-        System.out.print("Enter the numbers : ");
+        System.out.print("Enter the first number: ");
         a = scan.nextFloat();
+        System.out.print("Enter the second number: ");
         b = scan.nextFloat();
         float c = a - b;
         System.out.println(a + "-" + b + "=" + c);
@@ -67,8 +69,9 @@ class calculator {
     public static void multi() {
         Scanner scan = new Scanner(System.in);
         float a, b;
-        System.out.print("Enter the numbers : ");
+        System.out.print("Enter the first number: ");
         a = scan.nextFloat();
+        System.out.print("Enter the second number: ");
         b = scan.nextFloat();
         float c = a * b;
         System.out.println(a + "x" + b + "=" + c);
@@ -77,8 +80,9 @@ class calculator {
     public static void div() {
         Scanner scan = new Scanner(System.in);
         float a, b;
-        System.out.print("Enter the numbers : ");
+        System.out.print("Enter the first number: ");
         a = scan.nextFloat();
+        System.out.print("Enter the second number: ");
         b = scan.nextFloat();
         float c = a / b;
         System.out.println(a + "/" + b + "=" + c);
